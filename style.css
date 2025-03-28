@@ -1,11 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('Src/bgpic4.avif'); /* Path to your image */
+    background-image: url('Src/bgpic4.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     margin-top: 100px;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 300px;
@@ -38,7 +42,12 @@ button {
     z-index: 10;
 }
 
-/* Hide content at the start */
 #content {
     display: none;
+}
+
+#divv img {
+    width: 30%;
+    max-width: 150px;
+    height: auto;
 }
